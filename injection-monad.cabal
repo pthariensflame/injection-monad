@@ -10,7 +10,7 @@ name:                injection-monad
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.0.0.0
+version:             1.0.0.0
 
 -- A short (one-line) description of the package.
 synopsis:            A monad transformer for typed, manipulable injection
@@ -32,14 +32,14 @@ author:              Alexander Altman
 maintainer:          alexanderaltman@me.com
 
 -- A copyright notice.
--- copyright:           
+copyright:           Copyright (C) 2012 Alexander Altman
 
 category:            Control
 
 build-type:          Simple
 
 -- Constraint on the version of Cabal needed to build this package.
-cabal-version:       >=1.8
+cabal-version:       >= 1.8
 
 
 library
