@@ -1,8 +1,8 @@
-{-# LANGUAGE Safe #-}
+{-# LANGUAGE Trustworthy #-}
 module Control.Monad.Inject (Inj(..),
-                             MonadInject(..),
                              Inject,
                              runInject,
                              InjectT,
-                             runInjectT) where
+                             runInjectT,
+                             liftInject) where
 import Control.Monad.Inject.Internal
